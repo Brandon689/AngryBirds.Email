@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1903ad5e-0015-4b3e-b85c-8b65a43dd80f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AngryBirds.Email.Core\AngryBirds.Email.Core.csproj" />
+    <ProjectReference Include="..\AngryBirds.Email.Providers.ElasticEmail\AngryBirds.Email.Providers.ElasticEmail.csproj" />
+  </ItemGroup>
+
+</Project>
