@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngryBirds.Email.Providers.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngryBirds.Email.ConsoleTest", "AngryBirds.Email.ConsoleTest\AngryBirds.Email.ConsoleTest.csproj", "{BB175709-07FB-4E51-A223-917A8D4AC135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirds.HttpEmailServer", "AngryBirds.HttpEmailServer\AngryBirds.HttpEmailServer.csproj", "{55E36C45-21D7-4AA4-B32A-CF35F2383EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngryBirds.HttpEmailServer", "AngryBirds.HttpEmailServer\AngryBirds.HttpEmailServer.csproj", "{55E36C45-21D7-4AA4-B32A-CF35F2383EFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirds.Email.SmtpEmailProviderTest", "AngryBirds.Email.SmtpEmailProviderTest\AngryBirds.Email.SmtpEmailProviderTest.csproj", "{F664A5EA-AA09-4766-9024-68534BF56237}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{63A6DB12-D812-40D8-8800-9CD006C01099}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +37,17 @@ Global
 		{55E36C45-21D7-4AA4-B32A-CF35F2383EFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E36C45-21D7-4AA4-B32A-CF35F2383EFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55E36C45-21D7-4AA4-B32A-CF35F2383EFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F664A5EA-AA09-4766-9024-68534BF56237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F664A5EA-AA09-4766-9024-68534BF56237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F664A5EA-AA09-4766-9024-68534BF56237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F664A5EA-AA09-4766-9024-68534BF56237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB175709-07FB-4E51-A223-917A8D4AC135} = {63A6DB12-D812-40D8-8800-9CD006C01099}
+		{F664A5EA-AA09-4766-9024-68534BF56237} = {63A6DB12-D812-40D8-8800-9CD006C01099}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {831C150C-7E5B-46A5-9AE1-6F391899179F}

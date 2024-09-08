@@ -27,7 +27,7 @@ class Program
         var emailService = new EmailService(emailProvider);
 
         await TestSendEmail(emailService, testEmail);
-        await TestSendTemplateEmail(emailService, testEmail, templateId */);
+        await TestSendTemplateEmail(emailService, testEmail, templateId);
         await TestAddContact(emailProvider, testEmail);
         await TestCreateAndDeleteList(emailProvider);
 
